@@ -8,11 +8,11 @@ function loadHeader() {
         </figure>
         <nav class="navBox">
             <ul>
-                <li><a href="${location.pathname === '../../../src/html/inicio.html' ? '#' : '../../../src/html/inicio.html'}">Página Inicial</a></li>
-                <!-- <li><a href="${location.pathname === '../../../src/html/contatos.html' ? '#' : '../../../src/html/contatos.html'}">Contate-nos</a></li> --!>
-                <li><a href="${location.pathname === '../../../src/html/eventos.html' ? '#' : '../../../src/html/eventos.html'}">Eventos</a></li>
-                <li><a href="${location.pathname === '../../../src/html/certificados.html' ? '#' : '../../../src/html/certificados.html'}">Certificados</a></li>
-                <li><a href="${location.pathname === '../../../src/html/revista.html' ? '#' : '../../../src/html/revista.html'}">Revista</a></li>
+                <li><a href="${location.pathname === '../../../AreaMCR/src/html/inicio.html' ? '#' : '../../../src/html/inicio.html'}">Página Inicial</a></li>
+                <!-- <li><a href="${location.pathname === '../../../AreaMCR/src/html/contatos.html' ? '#' : '../../../src/html/contatos.html'}">Contate-nos</a></li> --!>
+                <li><a href="${location.pathname === '../../../AreaMCR/src/html/eventos.html' ? '#' : '../../../src/html/eventos.html'}">Eventos</a></li>
+                <li><a href="${location.pathname === '../../../AreaMCR/src/html/certificados.html' ? '#' : '../../../src/html/certificados.html'}">Certificados</a></li>
+                <li><a href="${location.pathname === '../../../AreaMCR/src/html/revista.html' ? '#' : '../../../src/html/revista.html'}">Revista</a></li>
             </ul>
         </nav>
     </header>

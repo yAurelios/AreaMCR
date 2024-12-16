@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    scrollbar-width: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bgImgSite {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover; 
+    filter: brightness(0.3);
+    z-index: -1; /* Coloca a imagem atrás de todo o conteúdo */
+}
+
+.textAreaTittle {
+    font-family: Bitter, Arial;
+    position: fixed; 
+    top: 35vh; /* Ajuste este valor para centralizar o texto verticalmente dentro da área da imagem */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+/* Para o conteúdo principal */
+.contentMain {
+    margin-top: 60vh;
+    z-index: 2; 
+    position: relative; 
+    background: white;
+    height: auto;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 480px) {
+
+    .bgImgSite {
+        display: none;
+    }
+    .textAreaTittle{
+        color: rgba(0, 123, 191, 1);
+        position: relative;
+        font-size: 16px;
+        height: auto;
+        top: 20vh;
+        bottom: 0;
+    }
+
+    .contentMain{
+        background: none;
+        margin-top: 15vh;
+        width: 100%;
+    }
+}

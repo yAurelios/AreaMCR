@@ -1,0 +1,74 @@
+
+.contentMainTextTitle{
+    margin-top: 10vh;
+    width: 55%;
+    text-align: justify;
+    color: #666;
+    font-size: 35px;
+}
+.contentMainText{
+    margin-top: 3vh;
+    width: 65%;
+    text-align: center;
+    text-align: justify;
+}
+.joinOnTeam{
+    width: 45%;
+    height: 5vh;
+    text-align: center;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    /* border: solid red 1px; */
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.joinOnTeam{
+    width: 35%;
+    background-color: rgba(0, 123, 191, 1);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: solid white 2px;
+    transition: 1s;
+}
+.joinOnTeam{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+.joinOnTeam:hover{
+    background-color: white;
+    color: rgba(0, 123, 191, 1);
+    transition: 0.5s;
+    border: solid rgba(0, 123, 191, 1) 2px;
+}
+
+@media (max-width: 480px) {
+
+    .contentMainTextTitle {
+        margin-top: 0;
+        font-size: 24px;
+        width: 90%;
+    }
+    .textAreaTittle{
+        color: rgba(0, 123, 191, 1);
+        position: relative;
+        margin-top: 4vh;
+        font-size: 16px;
+    }
+    .contentMainText{
+        width: 90%;
+    }
+    .joinOnTeam{
+        width: 75%;
+        height: 7vh;
+    }
+}

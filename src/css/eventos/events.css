@@ -1,0 +1,78 @@
+.contentMainEvents {
+    width: 50%;
+    margin-top: 10vh;
+    text-align: justify;
+    /* border: solid red 1px; */
+    margin-right: 20vh;
+    margin-left: 5vh;
+}
+
+.listEvents {
+    width: 20%;
+    position: sticky;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10vh;
+}
+
+.listEvents ul {
+    width: 60%;
+    margin: 0;
+    /* Reset margin */
+    padding: 0;
+    /* Reset padding */
+    list-style: none;
+    /* Remove default list styling if desired */
+    flex-grow: 1;
+    /* Allow the list to grow if needed */
+}
+
+.listEvents li {
+    margin: 3% 0 3% 0;
+}
+
+.event {
+    /* border: solid red 1px; */
+    margin-bottom: 5vh;
+}
+
+.eventDescription {
+    margin-top: 2vh;
+}
+
+.eventDate {
+    margin-top: 1vh;
+}
+
+.eventTitle {
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;
+}
+
+.eventTitle a {
+    color: #666;
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+
+    .listEvents {
+        display: none;
+    }
+
+    .eventTitle {
+        width: 100%;
+    }
+
+    .contentMainEvents {
+        width: 90%;
+        margin-top: 10vh;
+        text-align: justify;
+        /* border: solid red 1px; */
+        margin-right: 0;
+        margin-left: 0;
+    }
+}

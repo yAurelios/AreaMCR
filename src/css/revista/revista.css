@@ -1,0 +1,114 @@
+iframe{
+    width: 60%;
+    height: 35rem;
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+}
+
+.magazineDescription{
+    width: 60%;
+    margin-bottom: 3vh;
+    text-align: center;
+    font-size: 16px;
+}
+.openMagazine{
+    width: 40%;
+    height: 5vh;
+    background-color: rgba(0, 123, 191, 1);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: solid white 2px;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contentMainMagazines {
+    width: 50%;
+    margin-top: 10vh;
+    text-align: justify;
+    /* border: solid red 1px; */
+    margin-right: 20vh;
+    margin-left: 5vh;
+}
+
+.listMagazines {
+    width: 20%;
+    position: sticky; 
+    height: auto; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: flex-start; 
+    margin-top: 10vh;  
+}
+
+.listMagazines ul {
+    width: 60%;
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    list-style: none; /* Remove default list styling if desired */
+    flex-grow: 1; /* Allow the list to grow if needed */
+} 
+
+.listMagazines li{
+    margin: 3% 0 3% 0;
+}
+
+.magazine{
+    /* border: solid red 1px; */
+    margin-bottom: 5vh;
+}
+
+.magazineDescription{
+    margin-top: 2vh;
+}
+
+.magazineDate{
+    margin-top: 1vh;
+}
+
+.magazineTitle{
+    font-family: "Oswald", sans-serif;
+    font-size: 35px; 
+}
+
+.magazineTitle a{
+    color: #666;
+    text-decoration:underline; 
+}
+
+
+@media (max-width: 480px) {
+    iframe{
+        width: 90%;
+        height: 85vh;
+        border:solid rgba(0, 123, 191, 1) 1px;
+    }
+
+    .openMagazine{
+        width: 75%;
+    }
+
+    .magazineDescription{
+        margin-top: 0;
+    }
+
+    .listMagazines{
+        display: none;
+    }
+    .magazineTitle{
+        width: 100%;    
+    }
+    .contentMainMagazines{
+        width: 80%;
+        margin-top: 10vh;
+        text-align: justify;
+        /* border: solid red 1px; */
+        margin-right: 0;
+        margin-left: 0;
+    }
+}

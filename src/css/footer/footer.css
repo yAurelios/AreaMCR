@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Caudex;
+
+    src: url("../../../src/fonts/Caudex/Caudex-Regular.ttf") format('truetype');
+}
+
+footer{
+    font-family: Caudex;
+    width: 100%;
+    height: auto;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    margin-bottom: 6vh;
+}
+
+
+footer article{
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;
+}
+footer article p{
+    width: 100%;
+    color: black;
+}
+
+footer article h2{
+    color: rgba(0, 123, 191, 1);
+    width: 100%;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}

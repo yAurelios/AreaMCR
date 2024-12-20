@@ -1,6 +1,6 @@
-/src/eventos.html /eventos 
-/src/contatos.html /contatos 
-/src/certificados.html /certificados 
-/src/revista.html /revista 
-/src/revista/2024.html /revista/2024 
-index.html /
+/eventos /src/eventos.html  200
+/contatos /src/contatos.html  200
+/certificados /src/certificados.html  200
+/revista /src/revista.html  200
+/revista/2024 /src/revista/2024.html  200
+/ index.html  200

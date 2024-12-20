@@ -3,3 +3,9 @@
 /src/certificados.html /certificados 301
 /src/revista.html /revista 301
 /src/revista/2024.html /revista/2024 301
+
+/revista /revista.html 200
+/eventos /eventos.html 200
+/contatos /contatos.html 200
+/certificados /certificados.html 200
+/revista/2024 /revista/2024.html 200

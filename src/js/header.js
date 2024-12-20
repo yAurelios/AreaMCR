@@ -8,11 +8,11 @@ function loadHeader() {
         </figure>
         <nav class="navBox">
             <ul>
-                <li><a href="${location.pathname === '../../../../index.html' ? '#' : '../../../../index.html'}">Página Inicial</a></li>
-                <!-- <li><a href="${location.pathname === '../../../../src/contatos.html' ? '#' : '../../../src/contatos.html'}">Contate-nos</a></li> --!>
-                <li><a href="${location.pathname === '../../../../src/eventos.html' ? '#' : '../../../../../src/eventos.html'}">Eventos</a></li>
-                <li><a href="${location.pathname === '../../../../src/certificados.html' ? '#' : '../../../../../src/certificados.html'}">Certificados</a></li>
-                <li><a href="${location.pathname === '../../../../src/revista.html' ? '#' : '../../../../../src/revista.html'}">Revista</a></li>
+                <li><a href="${location.pathname === '../index' ? '#' : '../index'}">Página Inicial</a></li>
+                <!-- <li><a href="${location.pathname === '../src/contatos' ? '#' : '../src/contatos'}">Contate-nos</a></li> --!>
+                <li><a href="${location.pathname === '../src/eventos' ? '#' : '../src/eventos'}">Eventos</a></li>
+                <li><a href="${location.pathname === '../src/certificados' ? '#' : '../src/certificados'}">Certificados</a></li>
+                <li><a href="${location.pathname === '../src/revista' ? '#' : '../src/revista'}">Revista</a></li>
             </ul>
         </nav>
     </header>

@@ -3,7 +3,7 @@ const events = [
         name: "Expo Rondon 2023",
         description: "Durante os dias 21 a 25 de julho de 2023 foram realizadas as comemorações referentes ao aniversário de 63 anos do município de Marechal Cândido Rondon. Mais uma vez, a AREA esteve presente com um estande, onde, além da divulgação dos trabalhos da associação, foram realizadas palestras, firmadas parcerias, divulgação do CREA-PR e da Mútua-PR.",
         date: "21 a 25 de julho de 2023",
-        link: "../../root/html/evento-expo-rondon.html"
+        link: "../../src/evento-expo-rondon.html"
     },
     // Adicione mais eventos aqui conforme necessário
 ];

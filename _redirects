@@ -2,5 +2,5 @@
 /contatos ../src/contatos.html  200
 /certificados ../src/certificados.html  200
 /revista ../src/revista.html  200
-/revista/2024 ../src/revista/2024.html  200
+/src/revista/2024.html /revista/2024   200
 / ../index.html  200

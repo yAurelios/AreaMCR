@@ -3,13 +3,13 @@ const magazines = [
         name: "Revista AREA - MCR 2024",
         description: "",
         date: "",
-        link: "../../src/revista/2024.html"
+        link: "/revista/2024"
     },
     {
         name: "Revista AREA - MCR 2023",
         description: "",
         date: "",
-        link: "../../src/revista/2023.html"
+        link: ""
     },
     // Adicione mais revistas aqui conforme necessário
 ];

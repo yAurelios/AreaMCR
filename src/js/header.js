@@ -8,11 +8,11 @@ function loadHeader() {
         </figure>
         <nav class="navBox">
             <ul>
-                <li><a href="${location.pathname === '../index' ? '#' : '../index'}">Página Inicial</a></li>
-                <!-- <li><a href="${location.pathname === '../src/contatos' ? '#' : '../src/contatos'}">Contate-nos</a></li> --!>
-                <li><a href="${location.pathname === '../src/eventos' ? '#' : '../src/eventos'}">Eventos</a></li>
-                <li><a href="${location.pathname === '../src/certificados' ? '#' : '../src/certificados'}">Certificados</a></li>
-                <li><a href="${location.pathname === '../src/revista' ? '#' : '../src/revista'}">Revista</a></li>
+                <li><a href="/">Página Inicial</a></li>
+                <!-- <li><a href="">Contate-nos</a></li> --!>
+                <li><a href="/eventos">Eventos</a></li>
+                <li><a href="/certificados">Certificados</a></li>
+                <li><a href="/revista">Revista</a></li>
             </ul>
         </nav>
     </header>
